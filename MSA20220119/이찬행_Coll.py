@@ -10,7 +10,7 @@ temp = 0
 ans2 = {i for i in range(1,101) if i%3==0} 
 ans3 = {i for i in range(1,101) if i%5==0} 
 ans = ans2 | ans3
-
+print(ans)
 temp2 = 0
 
 #3
