@@ -31,6 +31,9 @@ def FlaskData():#startPage, pageCount, address): # 요청 받음
     # &cond%5BorgZipaddr%3A%3ALIKE%5D=%ED%99%94%EC%84%B1%EC%8B%9C
     # &serviceKey=j8b0Mnuz7av0XrUSk4VM9HSQ7UpBFVu%2F0ZpDOwjCMyrOcKc4hjTvlQcmeaYlI9paTOk%2Bb%2FxVQs7omZ0zJNQPcQ%3D%3D
     dataResult = requests.get(dataURL)
-    #공공데이터 요청 후 데이터 받기 : flask - request / requests 기능 사용"
 
-    return dataResult.json() # 공공데이터 결과 값 응답
+    dataResult2 = json.dumps(dataResult.json(), ensure_ascii=False, indent=10)
+
+    
+
+    return dataResult2 
