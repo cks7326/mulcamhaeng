@@ -1,0 +1,13 @@
+{
+    "name" : "홍길동",
+    "age" : 20,
+    "address" : ["경기도","화성시","반송동"],
+    "email" :
+    [
+        
+        {"id" :"wayrkks"},
+        {"addr" : "wayrkks@naver.com"},
+        {"pwd" : "12345567"}
+    ],
+    "empcheck" : true
+}

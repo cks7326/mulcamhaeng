@@ -1,0 +1,19 @@
+SDK = Software Development Kit
+ : API 파일
+ API 파일 Python = 클래스를 하나의 파일에 만들어서 안에 메서드(함수)를 만들어서 관리
+
+ =====================
+ 웹 서비스로 제공 = AWS
+    : 해외 직구 사이트 만들기
+    웹 서비스 API 제공함 : XML Web Service
+        -> REST API 서비스로 발전
+
+API 서버 구성, 하드웨어 구매
+MSA 기반 개발
+Cloud 기반 개발 MSA 개발 Cloud Service / Cloud Native
+         Cloud Native(Native Cloud)
+        1명의 개발자에게 한달에 1개 ~2개 정도 클래스 - 메서드는 5개 미만
+        조직을 만들 때 - 개발팀 최대 5명~6명 까지만 팀을 만듬
+        개발자는 2~3명 / 1PM(관리자) / 1 디자이너 / 코디네이터(옵션)
+        개발자는 2~3명 / 1PM(관리자) / 1 디자이너 / 운영자 = DevOps
+        개발자는 2~3명 / 1PM(관리자) / 1 디자이너 / 운ㅐ영자 / 보안 담당자= DevSecOps
